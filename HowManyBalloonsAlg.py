@@ -2,10 +2,14 @@
 
 import math
 
-def how_many_balloons(weight):
-	balloons = weight * 453.593 / 14
-	return math.ceil(balloons)
+class BalloonCount(object):
+	def __init__(self, weight):
+		self.weight = weight
 
-weight = int(input("Enter your weight "))
-number_of_balloons = how_many_balloons(weight)
-print("It would take %d balloons to lift %d lbs!" % (number_of_balloons, weight))
+	def how_many_balloons(self):
+		balloons = self.weight * 453.593 / 14
+		return math.ceil(balloons)
+
+weight = BalloonCount(int(input("Enter your weight ")))
+number_of_balloons = weight.how_many_balloons()
+print("It would take %s balloons to lift %s lbs!" % (number_of_balloons, weight.weight))
