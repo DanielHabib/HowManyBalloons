@@ -9,7 +9,7 @@ class BalloonCount(object):
         self.weight = weight
 
     def how_many_balloons(self):
-        balloons = self.weight * grams / liters_in_balloon
+        balloons = self.weight * self.grams / self.liters_in_balloon
         return ("It would take %s balloons to lift %s lbs!" % (math.ceil(balloons), self.weight)) 
 
 if __name__=='__main__':
