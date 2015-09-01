@@ -7,6 +7,7 @@ import withStyles from '../../decorators/withStyles';
 import Header from '../Header';
 import Feedback from '../Feedback';
 import Footer from '../Footer';
+import TextBox from '../TextBox';
 
 @withContext
 @withStyles(styles)
@@ -20,10 +21,8 @@ class App {
   render() {
     return !this.props.error ? (
       <div>
-      
-
-
-        
+        <TextBox>
+        </TextBox>
       </div>
     ) : this.props.children;
   }
