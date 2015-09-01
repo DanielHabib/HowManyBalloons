@@ -21,8 +21,7 @@ class App {
   render() {
     return !this.props.error ? (
       <div>
-        <TextBox>
-        </TextBox>
+        <TextBox />
       </div>
     ) : this.props.children;
   }
