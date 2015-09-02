@@ -1,6 +1,6 @@
 {
-  "name": "StaticLabel",
+  "name": "StaticLabelDirections",
   "version": "0.0.0",
   "private": true,
-  "main": "./StaticLabel.js"
+  "main": "./StaticLabelDirections.js"
 }

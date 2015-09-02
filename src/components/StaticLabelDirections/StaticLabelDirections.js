@@ -1,12 +1,12 @@
 import React, { PropTypes } from 'react';
-import styles from './StaticLabel.css';
+import styles from './StaticLabelDirections.css';
 import withViewport from '../../decorators/withViewport';
 import withStyles from '../../decorators/withStyles';
 import Link from '../Link';
 
 @withViewport
 @withStyles(styles)
-class StaticLabel {
+class StaticLabelDirections {
 
   static propTypes = {
     viewport: PropTypes.shape({
@@ -17,9 +17,9 @@ class StaticLabel {
 
   render() {
     return (
-      <div className="StaticLabel">
-        <div className="StaticLabel-container">
-          <div className="StaticLabel-text">How Many Balloons would it take to lift your fat ass?</div>
+      <div className="StaticLabelDirections">
+        <div className="StaticLabelDirections-container">
+          <div className="StaticLabelDirections-text">Enter your weight pounds</div>
         </div>
       </div>
     );
@@ -27,4 +27,4 @@ class StaticLabel {
 
 }
 
-export default StaticLabel;
+export default StaticLabelDirections;

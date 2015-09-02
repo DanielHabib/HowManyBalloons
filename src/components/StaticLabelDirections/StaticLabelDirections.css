@@ -1,6 +1,6 @@
 @import '../variables.css';
 
-.StaticLabel {
+.StaticLabelDirections {
     position: relative;
     margin: 0;
     position: absolute;
