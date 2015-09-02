@@ -7,14 +7,9 @@ div.TextBox {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
-    
+
 }
 
 .TextBox-input {
 }
 
-body {
-	background-image: url(http://7-themes.com/data_images/out/61/6980749-balloons-house-in-up-movie.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
