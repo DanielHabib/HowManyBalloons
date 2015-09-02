@@ -8,6 +8,7 @@ import Header from '../Header';
 import Feedback from '../Feedback';
 import Footer from '../Footer';
 import TextBox from '../TextBox';
+import StaticLabel from '../StaticLabel';
 
 @withContext
 @withStyles(styles)
@@ -21,6 +22,7 @@ class App {
   render() {
     return !this.props.error ? (
       <div>
+        <StaticLabel />
         <TextBox />
       </div>
     ) : this.props.children;
