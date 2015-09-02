@@ -8,6 +8,7 @@ import Header from '../Header';
 import Feedback from '../Feedback';
 import Footer from '../Footer';
 import TextBox from '../TextBox';
+import PushButton from '../PushButton';
 import StaticLabel from '../StaticLabel';
 
 @withContext
@@ -24,6 +25,7 @@ class App {
       <div>
         <StaticLabel />
         <TextBox />
+        <PushButton />
       </div>
     ) : this.props.children;
   }
