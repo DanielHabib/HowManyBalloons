@@ -19,7 +19,7 @@ class StaticLabelDirections {
     return (
       <div className="StaticLabelDirections">
         <div className="StaticLabelDirections-container">
-          <div className="StaticLabelDirections-text">Enter your weight pounds</div>
+          <div className="StaticLabelDirections-text">Enter your weight in pounds</div>
         </div>
       </div>
     );
