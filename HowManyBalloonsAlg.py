@@ -12,6 +12,6 @@ class BalloonCount(object):
         balloons = self.weight * self.grams / self.liters_in_balloon
         return ("It would take %s balloons to lift %s lbs!" % (math.ceil(balloons), self.weight)) 
 
-if __name__=='__main__':
+if __name__ == '__main__':
     weight = BalloonCount(int(input("Enter your weight ")))
     print (weight.how_many_balloons())
