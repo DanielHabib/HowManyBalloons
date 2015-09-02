@@ -9,6 +9,7 @@ import Feedback from '../Feedback';
 import Footer from '../Footer';
 import TextBox from '../TextBox';
 import PushButton from '../PushButton';
+import StaticLabel from '../StaticLabel';
 
 @withContext
 @withStyles(styles)
@@ -22,6 +23,7 @@ class App {
   render() {
     return !this.props.error ? (
       <div>
+        <StaticLabel />
         <TextBox />
         <PushButton />
       </div>

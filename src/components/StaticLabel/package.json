@@ -1,0 +1,6 @@
+{
+  "name": "StaticLabel",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./StaticLabel.js"
+}
