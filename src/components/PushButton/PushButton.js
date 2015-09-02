@@ -6,7 +6,7 @@ import Link from '../Link';
 
 @withViewport
 @withStyles(styles)
-class StaticLabel {
+class PushButton {
 
   static propTypes = {
     viewport: PropTypes.shape({
