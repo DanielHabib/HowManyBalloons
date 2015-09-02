@@ -8,6 +8,7 @@ import Header from '../Header';
 import Feedback from '../Feedback';
 import Footer from '../Footer';
 import TextBox from '../TextBox';
+import PushButton from '../PushButton';
 
 @withContext
 @withStyles(styles)
@@ -22,6 +23,7 @@ class App {
     return !this.props.error ? (
       <div>
         <TextBox />
+        <PushButton />
       </div>
     ) : this.props.children;
   }
