@@ -21,16 +21,15 @@
     -webkit-transition: all 0.1s;
 	-moz-transition: all 0.1s;
 	transition: all 0.1s;
-	
+	/*
 	-webkit-box-shadow: 0px 9px 0px #84261a;
         -moz-box-shadow: 0px 9px 0px #84261a;
-        box-shadow: 0px 9px 0px #84261a;
+        box-shadow: 0px 9px 0px #84261a;*/
 }
 
-.push_button:active{
+.PushButton:active{
     -webkit-box-shadow: 0px 2px 0px #84261a;
     -moz-box-shadow: 0px 2px 0px #84261a;
     box-shadow: 0px 2px 0px #84261a;
-    position:relative;
-    top:7px;
+
 }

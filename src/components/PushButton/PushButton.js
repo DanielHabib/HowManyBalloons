@@ -15,16 +15,19 @@ class PushButton {
     }).isRequired
   };
 
+  handleClick(){
+    console.log('You clicked: ');
+  }
+
   render() {
     return (
       <div className="PushButton">
         <div className="PushButton-container">
-          <div className="PushButton-text">Balloon Me!</div>
+          <button onClick={this.handleClick.bind(this)} className="PushButton-text">Balloon Me!</button>
         </div>
       </div>
     );
   }
 
 }
-
 export default PushButton;
