@@ -2,11 +2,11 @@
 
 .PushButton {
     position:relative;
-    top: 60%;
-    left: 50%;
+    top: 50%;
+    left: 60%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    width:200px;
+    width:100px;
     color:#FFF;
     display:block;
     text-decoration:none;

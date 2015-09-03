@@ -10,6 +10,8 @@ import Footer from '../Footer';
 import TextBox from '../TextBox';
 import PushButton from '../PushButton';
 import StaticLabel from '../StaticLabel';
+import StaticLabelDirections from '../StaticLabelDirections';
+import StaticLabelResult from '../StaticLabelResult';
 
 @withContext
 @withStyles(styles)
@@ -24,6 +26,8 @@ class App {
     return !this.props.error ? (
       <div>
         <StaticLabel />
+        <StaticLabelDirections />
+        <StaticLabelResult />
         <TextBox />
         <PushButton />
       </div>
