@@ -32,6 +32,7 @@ class App {
         <TextBox />
         <PushButton />
         <BalloonAnimation />
+        <Footer />
       </div>
     ) : this.props.children;
   }

@@ -25,7 +25,11 @@ class Footer {
     return (
       <div className="Footer">
         <div className="Footer-container">
-          <span className="Footer-text">© Your Company</span>
+          <a href="https://github.com/DanielHabib/HowManyBalloons">
+            <span className="Footer-text">
+              <img className="Header-brandImg" src={require('./GitHub-Mark.png')} alt="Github" width="40" height="40"/>
+            </span>
+          </a>
           <span className="Footer-spacer">·</span>
           <a className="Footer-link" href="/" onClick={Link.handleClick}>Home</a>
           <span className="Footer-spacer">·</span>

@@ -5,8 +5,14 @@
 .Footer {
   background: #333;
   color: #fff;
+  position: absolute;
+  bottom: 0;
+  width:100%;
 }
-
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
 .Footer-container {
   margin: 0 auto;
   padding: 20px 15px;
