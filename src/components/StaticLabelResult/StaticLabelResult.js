@@ -3,6 +3,7 @@ import styles from './StaticLabelResult.css';
 import withViewport from '../../decorators/withViewport';
 import withStyles from '../../decorators/withStyles';
 import Link from '../Link';
+import _ from 'pubsub-js';
 
 @withViewport
 @withStyles(styles)
