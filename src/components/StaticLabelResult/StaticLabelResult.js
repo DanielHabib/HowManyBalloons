@@ -26,18 +26,12 @@ class StaticLabelResult extends React.Component {
             result: 5
         };
     };
-
     componentDidMount() {
-
         var puhsuh = function(string, data) {
             this.displayResult(data);
         }.bind(this);
-
         PubSub.subscribe('text_pushed', puhsuh);
     };
-
-
-
 
     activate() {
         this.setState({
@@ -46,8 +40,12 @@ class StaticLabelResult extends React.Component {
     };
 
     displayResult(number) {
+
+      var numStr = number.toString();
+      let strSuffix = "\nballoons";
+      var finalStr = numStr.concat(strSuffix);
         this.setState({
-            result: number
+            result: finalStr
         })
         PubSub.publishSync('button_press', 'hello world!');
     };

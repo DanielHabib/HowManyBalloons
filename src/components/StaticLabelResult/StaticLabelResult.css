@@ -4,12 +4,14 @@
     position: relative;
     margin: 0;
     position: absolute;
-    top: 70%;
+    top: 75%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
     color: white;
-    background: green;
+    font:inherit;
     font-family: sans-serif;
-    font-size:600%;
+    font-size:1000%;
+    word-wrap: break-word;
+    text-align: center;
 }
