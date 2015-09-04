@@ -42,8 +42,7 @@ class StaticLabelResult extends React.Component {
     displayResult(number) {
 
       var numStr = number.toString();
-      let strSuffix = "\
-                    balloons";
+      let strSuffix = "\nballoons";
       var finalStr = numStr.concat(strSuffix);
         this.setState({
             result: finalStr
