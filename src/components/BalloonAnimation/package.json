@@ -1,0 +1,6 @@
+{
+  "name": "BalloonAnimation",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./BalloonAnimation.js"
+}

@@ -12,6 +12,7 @@ import PushButton from '../PushButton';
 import StaticLabel from '../StaticLabel';
 import StaticLabelDirections from '../StaticLabelDirections';
 import StaticLabelResult from '../StaticLabelResult';
+import BalloonAnimation from '../BalloonAnimation';
 
 @withContext
 @withStyles(styles)
@@ -30,6 +31,7 @@ class App {
         <StaticLabelResult />
         <TextBox />
         <PushButton />
+        <BalloonAnimation />
       </div>
     ) : this.props.children;
   }
