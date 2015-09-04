@@ -3,7 +3,7 @@ import styles from './StaticLabelResult.css';
 import withViewport from '../../decorators/withViewport';
 import withStyles from '../../decorators/withStyles';
 import Link from '../Link';
-import _ from 'pubsub-js';
+import PubSub from 'pubsub-js';
 
 @withViewport
 @withStyles(styles)
@@ -16,23 +16,37 @@ class StaticLabelResult extends React.Component{
     }).isRequired
   };
 
-
   constructor() {
         super();
         this.state = {
         active: false,
           result: 5
       };
-  }
+  };
 
-  activate () {
-        this.setState({active: true}
+  componentDidMount() {
+
+    var puhsuh = function(string, data) {
+      
+      this.displayResult(data);
+    }.bind(this);
+
+    PubSub.subscribe('text_pushed', puhsuh);
+  };
+
+
+
+
+    activate() {
+        this.setState({
+                active: true
+            }
           );
   };
 
   displayResult(number) {
-    console.log("fds");
     this.setState({result: number})
+    PubSub.publishSync( 'button_press', 'hello world!' );
   };
 
   render() {
@@ -44,28 +58,6 @@ class StaticLabelResult extends React.Component{
       </div>
     );
   }
-
 }
 
-// var template = React.createClass({
-//     getInitialState: function () {
-//         return {active: false,
-//                 result: 432};
-//     },
-//     toggle: function() {
-//         this.setState({active: true});
-//     },
-//     displayResult: function() {
-//       // this.setState({result: 4});
-//       console.log("bruh");
-//     },
-//     render: function() {
-//           return (
-//       <div className="StaticLabelResult">
-//         <div className="StaticLabelResult-container">
-//           <p onClick={this.displayResult()} className="StaticLabelResult-text">{this.state.result}</p>
-//         </div>
-//       </div>
-//     );}
-// });
 export default StaticLabelResult;

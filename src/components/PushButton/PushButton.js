@@ -3,6 +3,7 @@ import styles from './PushButton.css';
 import withViewport from '../../decorators/withViewport';
 import withStyles from '../../decorators/withStyles';
 import Link from '../Link';
+import PubSub from 'pubsub-js';
 
 @withViewport
 @withStyles(styles)
@@ -16,8 +17,7 @@ class PushButton {
   };
 
   handleClick(){
-    console.log('You clicked: ');
-
+    PubSub.publishSync( 'button_press', 'hello world!' );
   }
 
   render() {
