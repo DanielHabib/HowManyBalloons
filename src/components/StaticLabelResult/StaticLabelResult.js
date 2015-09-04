@@ -39,9 +39,13 @@ class StaticLabelResult extends React.Component {
         });
     };
 
-    displayResult(number) {
+    calculateResult(number) {
+        number_result = nummber * 453.593 / 14;
+    }
 
-      var numStr = number.toString();
+    displayResult(number_result) {
+
+      var numStr = number_result.toString();
       let strSuffix = "\nballoons";
       var finalStr = numStr.concat(strSuffix);
         this.setState({
