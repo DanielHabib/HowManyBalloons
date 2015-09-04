@@ -1,15 +1,32 @@
 /* React Starter Kit | MIT License | http://www.reactstarterkit.com/ */
 div.TextBox {
-    position: relative; 
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
+
 
 }
 
 .TextBox-input {
+    width: 20%;
+    height:56px;
+    position: relative;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+
+    font-size: 25px;
+    color:white;
+
+    background: rgba(255,255,255,.1);
 }
 
+.TextBox-input:focus{
+    color:white;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

@@ -15,7 +15,7 @@
     border-color:white;
     border:solid 2px;
     font: inherit;
-    font-size: 20px;
+    font-size: 25px;
     text-align:center;
     padding:20px 30px;
     background-color: transparent;
@@ -26,10 +26,7 @@
 .PushButton-text:hover {
      background-color: #fff;
       color: #444;
-
 }
-
-
 .PushButton-container {
     background:transparent;
 }
