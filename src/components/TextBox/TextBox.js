@@ -15,6 +15,19 @@ class TextBox {
     maxLines: 1
   };
 
+  //tried to put it in here but didnt work either, tried it this way and the way it looks in my file
+  /*var BalloonCount = React.createClass({
+    CountingBalloons: function(weight) {
+      var balloons = weight * 453.593 / 14;
+      return console.log(balloons);
+    }
+  }); */
+
+  howmanyballoonsalg(){
+    var balloons = weight * 453.953 / 14;
+    console.log(balloons);
+  }
+
   render() {
     return (
       <div className="TextBox">
