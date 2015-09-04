@@ -107,7 +107,7 @@ body {
   position: absolute;
   left: 50px;
   top: 13px;
-  background-color: #00dbde;
+  background-color: #00d2ff;
   border-radius: 50%;
   width: 25px;
   height: 25px;
@@ -121,6 +121,7 @@ body {
     transform: translateY(-400px);
   }
 }
+
 
 @keyframes sway {
   0% {
