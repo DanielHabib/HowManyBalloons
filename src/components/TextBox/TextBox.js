@@ -23,6 +23,11 @@ class TextBox {
     }
   }); */
 
+  howmanyballoonsalg(){
+    var balloons = weight * 453.953 / 14;
+    console.log(balloons);
+  }
+
   render() {
     return (
       <div className="TextBox">
