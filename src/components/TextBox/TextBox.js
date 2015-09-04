@@ -22,7 +22,9 @@ class TextBox {
       return console.log(balloons);
     }
   }); */
-
+  howmanyballoonsalg(){
+    //put code here
+  }
   render() {
     return (
       <div className="TextBox">
