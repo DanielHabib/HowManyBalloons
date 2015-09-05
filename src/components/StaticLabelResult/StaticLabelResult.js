@@ -41,7 +41,8 @@ class StaticLabelResult extends React.Component {
 
     displayResult(number) {
 
-      var numStr = number.toString();
+      var numCalc = Math.ceil(number * 453.593 / 14);
+      var numStr = numCalc.toString();
       let strSuffix = "\nballoons";
       var finalStr = numStr.concat(strSuffix);
         this.setState({
