@@ -24,7 +24,7 @@ class PushButton {
     return (
       <div className="PushButton">
         <div className="PushButton-container">
-          <button onClick={this.handleClick.bind(this)} className="PushButton-text">Balloon Me!</button>
+          <button onClick={this.handleClick.bind(this)} className="PushButton-text">Calculate!</button>
         </div>
       </div>
     );

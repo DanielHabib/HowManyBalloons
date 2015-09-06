@@ -39,7 +39,7 @@ class TextBox {
       <div className="TextBox">
         {this.props.maxLines > 1 ?
           <textarea {...this.props} className="TextBox-input" ref="input" key="input" rows={this.props.maxLines} /> :
-          <input {...this.props} onClick={this.passText.bind(this)} onKeyDown={this.pressEnter.bind(this)} type="number" placeholder="Type numbers and shit here" className="TextBox-input" ref="input" key="input" />}
+          <input {...this.props} onClick={this.passText.bind(this)} onKeyDown={this.pressEnter.bind(this)} type="number" placeholder="Type Weight Here" className="TextBox-input" ref="input" key="input" />}
       </div>
     );
   }
