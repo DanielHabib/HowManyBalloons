@@ -11,7 +11,7 @@ div.TextBox {
     margin: 0;
     position: absolute;
     top: 50%;
-    left: 45%;
+    left: 44%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
     border:solid 4px;
