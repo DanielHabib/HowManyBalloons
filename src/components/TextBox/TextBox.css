@@ -5,13 +5,12 @@ div.TextBox {
 }
 
 .TextBox-input {
-    width: 20%;
-    height:56px;
-    position: relative;
+    width: 14%;
+    height:50px;
     margin: 0;
     position: absolute;
     top: 50%;
-    left: 44%;
+    left: 42%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
     border:solid 4px;

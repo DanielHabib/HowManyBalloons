@@ -19,7 +19,7 @@ class StaticLabel {
     return (
       <div className="StaticLabel">
         <div className="StaticLabel-container">
-          <div className="StaticLabel-text">How Many Balloons would it take to lift your fat ass?</div>
+          <div className="StaticLabel-text">How Many Balloons would it take to lift you?</div>
         </div>
       </div>
     );

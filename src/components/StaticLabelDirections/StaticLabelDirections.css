@@ -1,7 +1,6 @@
 @import '../variables.css';
 
 .StaticLabelDirections {
-    position: relative;
     margin: 0;
     position: absolute;
     top: 40%;
@@ -11,5 +10,5 @@
     color: white;
     font:inherit;
     font-family: sans-serif;
-    font-size:200%;
+    font-size:175%;
 }
