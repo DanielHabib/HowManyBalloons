@@ -13,13 +13,13 @@ class NotFoundPage {
   };
 
   render() {
-    let title = 'Page Not Found';
+    let title = 'I TOLD YOU NOT TO CLICK THAT!';
     this.context.onSetTitle(title);
     this.context.onPageNotFound();
     return (
       <div>
         <h1>{title}</h1>
-        <p>Sorry, but the page you were trying to view does not exist.</p>
+        <p>Dammit, Johnson! They're onto us!</p>
       </div>
     );
   }
