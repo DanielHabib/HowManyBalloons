@@ -19,7 +19,7 @@ class NotFoundPage {
     return (
       <div>
         <h1>{title}</h1>
-        <p>Dammit, Johnson! They're onto us!</p>
+        <p>Dammit, Johnson! Theyre onto us!</p>
       </div>
     );
   }
