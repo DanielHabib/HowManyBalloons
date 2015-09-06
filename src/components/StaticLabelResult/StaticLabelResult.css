@@ -1,7 +1,6 @@
 @import '../variables.css';
 
 .StaticLabelResult {
-    position: relative;
     margin: 0;
     position: absolute;
     top: 75%;
@@ -11,7 +10,7 @@
     color: white;
     font:inherit;
     font-family: sans-serif;
-    font-size:1000%;
+    font-size:900%;
     word-wrap: break-word;
     text-align: center;
 }
