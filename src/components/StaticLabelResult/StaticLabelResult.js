@@ -23,7 +23,7 @@ class StaticLabelResult extends React.Component {
         super();
         this.state = {
             active: false,
-            result: 5
+            result: 0
         };
     };
     componentDidMount() {
