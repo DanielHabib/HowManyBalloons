@@ -35,7 +35,7 @@ class Footer {
           <span className="Footer-spacer">·</span>
           <a className="Footer-link" href="/privacy" onClick={Link.handleClick}>Privacy</a>
           <span className="Footer-spacer">·</span>
-          <a className="Footer-link" href="/not-found" onClick={Link.handleClick}>Not Found</a>
+          <a className="Footer-link" href="/not-found" onClick={Link.handleClick}>Don't Click This</a>
           <span className="Footer-spacer"> | </span>
           <span ref="viewport" className="Footer-viewport Footer-text Footer-text--muted">Viewport:</span>
         </div>
