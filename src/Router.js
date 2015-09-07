@@ -1,4 +1,4 @@
-/*! React Starter Kit | MIT License | http://www.reactstarterkit.com/ */
+/*!Test React Starter Kit | MIT License | http://www.reactstarterkit.com/ */
 
 import React from 'react';
 import Router from 'react-routing/src/Router';
