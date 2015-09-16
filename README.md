@@ -9,3 +9,6 @@ https://trello.com/b/IzbV5haj/how-many-balloons
 
 ## Wireframe
 ![Orchestration](BasicWireframe.png)
+
+## Stats
+* Using ES6
